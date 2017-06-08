@@ -41,6 +41,14 @@
 		</dependency>
 	</dependencies>
 	<build>
+		<plugins>
+<!-- 			<plugin> -->
+<!-- 				<groupId></groupId> -->
+<!-- 				<artifactId></artifactId> -->
+<!-- 				<version>3.3</version> -->
+<!-- 			</plugin> -->
+		</plugins>
+	
 		<finalName>myProject</finalName>
 	</build>
 </project>
