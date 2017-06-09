@@ -28,6 +28,6 @@ public class HelloServlet extends HttpServlet {
 		String nowTime = dateFormat.format(new Date());
 		
 		req.setAttribute("nowTime", nowTime);
-		req.getRequestDispatcher("/WEB-INF/view/hello.jsp").forward(req, resp);
+		req.getRequestDispatcher("/WEB-INF/view/hello1.html").forward(req, resp);
 	}
 }
