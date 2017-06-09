@@ -5,3 +5,9 @@ https://github.com/mengtingH/myProject.git
 mengtingH&git1220&531952276@qq.com
 
 问题：mengtingH zj
+
+问题记录：
+1、EL表达式不被解析
+	<%@ page isELIgnored="false" language="java" import="java.util.*" pageEncoding="utf-8"%>
+	头部添加 isELIgnored="false"
+	导入 jstl<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
