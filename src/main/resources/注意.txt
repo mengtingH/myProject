@@ -11,3 +11,7 @@ mengtingH&git1220&531952276@qq.com
 	<%@ page isELIgnored="false" language="java" import="java.util.*" pageEncoding="utf-8"%>
 	头部添加 isELIgnored="false"
 	导入 jstl<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
+
+2、安装 jar包
+	maven没有ojdbc的包 需要手动安装
+	mvn install:install-file -DgroupId=com.oracle -DartifactId=ojdbc5 -Dversion=11.2.0.2.0 -Dpackaging=jar -Dfile=C:\Users\Administrator\Desktop\ojdbc6.jar
