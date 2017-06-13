@@ -9,10 +9,9 @@ public interface ICustomerService {
 
 	/**
 	 * 获取客户列表
-	 * @param key
 	 * @return list
 	 */
-	public List<Customer> getList(String key);
+	public List<Customer> getList();
 	
 	/**
 	 * 获取客户信息

@@ -51,12 +51,12 @@
 			<version>2.3.23</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.oracle/ojdbc5 -->
-<!-- 		<dependency> -->
-<!-- 		    <groupId>com.oracle</groupId> -->
-<!-- 		    <artifactId>ojdbc5</artifactId> -->
-<!-- 		    <version>11.2.0.2.0</version> -->
-<!-- 		    <scope>test</scope> -->
-<!-- 		</dependency> -->
+		<!-- <dependency>
+		    <groupId>com.oracle</groupId>
+		    <artifactId>ojdbc5</artifactId>
+		    <version>11.2.0.2.0</version>
+		    <scope>test</scope>
+		</dependency> -->
 
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
 		<dependency>
@@ -76,10 +76,17 @@
 		<dependency>
 		    <groupId>org.slf4j</groupId>
 		    <artifactId>slf4j-log4j12</artifactId>
-		    <version>1.7.21</version>
+		    <version>1.7.7</version>
 		    <scope>test</scope>
 		</dependency>
-        
+		
+		<!-- https://mvnrepository.com/artifact/commons-dbutils/commons-dbutils -->
+		<dependency>
+		    <groupId>commons-dbutils</groupId>
+		    <artifactId>commons-dbutils</artifactId>
+		    <version>1.6</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<plugins>
